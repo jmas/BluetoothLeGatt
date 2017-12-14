@@ -2149,14 +2149,13 @@ containing a value of this type.
         public static final int menu_scan=0x7f05002c;
         public static final int menu_stop=0x7f05002d;
         public static final int no_data=0x7f05002e;
-        public static final int preference_device_address=0x7f05002f;
         public static final int search_menu_title=0x7f050013;
-        public static final int send_alert=0x7f050030;
+        public static final int send_alert=0x7f05002f;
         public static final int status_bar_notification_info_overflow=0x7f050014;
-        public static final int title_devices=0x7f050031;
-        public static final int unknown_characteristic=0x7f050032;
-        public static final int unknown_device=0x7f050033;
-        public static final int unknown_service=0x7f050034;
+        public static final int title_devices=0x7f050030;
+        public static final int unknown_characteristic=0x7f050031;
+        public static final int unknown_device=0x7f050032;
+        public static final int unknown_service=0x7f050033;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07009b;

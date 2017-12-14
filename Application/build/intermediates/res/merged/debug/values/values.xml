@@ -379,7 +379,6 @@
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
     <string name="no_data">No data</string>
-    <string name="preference_device_address">device_address</string>
     <string name="search_menu_title">Search</string>
     <string name="send_alert">Send alert</string>
     <string name="status_bar_notification_info_overflow">999+</string>
