@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.bluetoothlegatt;
+package com.example.android.bluetoothlegatt.helpers;
 
 import android.app.Activity;
 import android.hardware.Sensor;

@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
+import com.example.android.bluetoothlegatt.helpers.AppSettings;
+
 public class BootReceiver extends BroadcastReceiver {
     private final static String TAG = BootReceiver.class.getSimpleName();
 

@@ -2,6 +2,33 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/062e58c83ecabcbaeccb91000761436623fb4474/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cd668c1386c835b2706284d1ed8bb8361ba19c55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b093f5e848fe280091b75138d670c27efad71856/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="557edd918fd41f9260963583ebf5a61a43a6b423">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.7_f661f3d44a3cba1ae0cb0a2e32382181e992f866/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/jmas/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar"
         jumboMode="false"
@@ -9,6 +36,33 @@
         revision="25.0.2"
         sha1="557edd918fd41f9260963583ebf5a61a43a6b423">
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/commons-lang3-3.7_f661f3d44a3cba1ae0cb0a2e32382181e992f866.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/154a9f3caa1038f83ae47d481494633ffa938fb7/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_40346dc42ebb8a8e87a0e82285f1c280076ff735/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/154a9f3caa1038f83ae47d481494633ffa938fb7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb114c1a8f1d26a550348bb710d482ca1aaa025f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/7805a18dd29706d95f6f21b8caf63e41ed95a559/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_92c830764c6f8f9422ee22ebeb707cc571488a5c/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -47,6 +101,33 @@
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_562b951028782309426efa0eb02bca610646f225.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/879bcf585213a1aa8f9a2d4b6a4168f285679653/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2d0e3ce5f4dad3c39ecf6fe4596aec870a19fd62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/2807555b2ebaab2053c4d57be1b516c15f1bd93e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f77e3ae206d03ffbb030cc2af96019fc9dbd6be1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/879bcf585213a1aa8f9a2d4b6a4168f285679653/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8b63b601b31e8ba38e6f0c5004b37d7eae6764d6/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
@@ -63,6 +144,24 @@
         revision="25.0.2"
         sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_08cad198bfc73058a22748fb62651b860456d6ae.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/2807555b2ebaab2053c4d57be1b516c15f1bd93e/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d79510e5ea40d9b08c9a4d1f8095d550516e4507/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/e9bcec71c35bcbe3434fdde2abf40d97cb5a5b59/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec5c76646d57666496569f37c7bcbf19109021e1/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -110,6 +209,42 @@
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_1e53bceb2d9b3ca5d7847f5e765b2f4313fc3c5a.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/e9bcec71c35bcbe3434fdde2abf40d97cb5a5b59/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_eab69a6849e50ba9f526ec26098a1718b52a051c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="c303b59d274df4d172929397beed8a86ce0d62ae">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5a9c05b34990990925745aad754f043d06eed7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/817ed2afbcfffc2fa65e3f5584edc5695c0d7205/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5b57d2e9df0a422ce12d56466ff370b78f42e5f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/4477ba3b91e73e09ab1a586e133915b450683d7e/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4ef1063c5764653215b0ffb6f2892bfa31d2aa87/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
         jumboMode="false"
@@ -117,6 +252,24 @@
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_11d94988f3e79a2a41fa06784b32f24c8b947e07.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/0f1c879cdb16102cf518c11f93a325f977553975/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fcae6b4f5da482d356030e69dd2d8d36742e88cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/3db979f5721f028929b55bf9d4b6ebd02e482f67/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_16bb7932d3a20bcf26aa8742dd5ec58b7f685e67/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -135,6 +288,24 @@
         revision="25.0.2"
         sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v13-25.0.1_fb20cf2cb4fe2e3b228a848e7e9d6cee60ba1782.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/Playground/BluetoothLeGatt/Application/src/main/java/libs/junidecode-0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="5198c89c57fe2281c5556354e57ce51ae50a193d">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/2/junidecode-0.2_eeb66cbea2a6f31fb9ad2039de8fd713d07fa3da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/7805a18dd29706d95f6f21b8caf63e41ed95a559/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_06474b165872e9f0db5822141b3cc4a652985c74/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -173,6 +344,24 @@
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/junidecode-0.2_eeb66cbea2a6f31fb9ad2039de8fd713d07fa3da.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/3bd245f8a6613e9dfeb95f05e1795a77d8ee13b1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d33482695a01ce69985affde60219c8e3b0a9b24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_27deabcd932735650f05ee87a4983ebc7146c5bb/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
@@ -180,6 +369,15 @@
         revision="25.0.2"
         sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
         <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a1f813e2c8aee83a099c248047cc55b760feef50.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jmas/.android/build-cache/4477ba3b91e73e09ab1a586e133915b450683d7e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d747d689f3ab214bfa84c41617657eacd88e96a9/classes.dex" />
     </item>
 
 </items>

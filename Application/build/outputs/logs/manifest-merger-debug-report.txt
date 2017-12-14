@@ -41,17 +41,17 @@ ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidMa
 		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:22-67
 application
 ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:5-79:19
-MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/.android/build-cache/4477ba3b91e73e09ab1a586e133915b450683d7e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/.android/build-cache/0f1c879cdb16102cf518c11f93a325f977553975/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/.android/build-cache/3db979f5721f028929b55bf9d4b6ebd02e482f67/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/.android/build-cache/062e58c83ecabcbaeccb91000761436623fb4474/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/.android/build-cache/879bcf585213a1aa8f9a2d4b6a4168f285679653/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/.android/build-cache/2807555b2ebaab2053c4d57be1b516c15f1bd93e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/.android/build-cache/154a9f3caa1038f83ae47d481494633ffa938fb7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/.android/build-cache/e9bcec71c35bcbe3434fdde2abf40d97cb5a5b59/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/.android/build-cache/3bd245f8a6613e9dfeb95f05e1795a77d8ee13b1/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/.android/build-cache/817ed2afbcfffc2fa65e3f5584edc5695c0d7205/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/.android/build-cache/7805a18dd29706d95f6f21b8caf63e41ed95a559/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:40:9-41
 	android:icon
@@ -120,19 +120,19 @@ ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidMa
 		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:76:25-79
 uses-sdk
 INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/.android/build-cache/4477ba3b91e73e09ab1a586e133915b450683d7e/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/.android/build-cache/0f1c879cdb16102cf518c11f93a325f977553975/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/.android/build-cache/3db979f5721f028929b55bf9d4b6ebd02e482f67/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/.android/build-cache/062e58c83ecabcbaeccb91000761436623fb4474/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/.android/build-cache/879bcf585213a1aa8f9a2d4b6a4168f285679653/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/.android/build-cache/2807555b2ebaab2053c4d57be1b516c15f1bd93e/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/.android/build-cache/154a9f3caa1038f83ae47d481494633ffa938fb7/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/.android/build-cache/e9bcec71c35bcbe3434fdde2abf40d97cb5a5b59/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/.android/build-cache/3bd245f8a6613e9dfeb95f05e1795a77d8ee13b1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/.android/build-cache/817ed2afbcfffc2fa65e3f5584edc5695c0d7205/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/.android/build-cache/7805a18dd29706d95f6f21b8caf63e41ed95a559/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v13:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:23:9-52
+		ADDED from [com.android.support:support-v13:25.0.1] /Users/jmas/.android/build-cache/4477ba3b91e73e09ab1a586e133915b450683d7e/output/AndroidManifest.xml:23:9-52
 	android:targetSdkVersion
 		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml

@@ -8,11 +8,11 @@ import android.content.Intent;
 import android.provider.Telephony;
 import android.util.Log;
 
+import com.example.android.bluetoothlegatt.helpers.AppSettings;
+
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import gcardone.junidecode.Junidecode;
 
 public class SmsReceiver extends BroadcastReceiver {
     private final static String TAG = SmsReceiver.class.getSimpleName();

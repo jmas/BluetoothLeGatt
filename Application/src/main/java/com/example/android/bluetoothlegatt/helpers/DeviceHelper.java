@@ -1,7 +1,9 @@
-package com.example.android.bluetoothlegatt;
+package com.example.android.bluetoothlegatt.helpers;
 
 import android.bluetooth.BluetoothDevice;
 import android.util.Log;
+
+import com.example.android.bluetoothlegatt.DeviceService;
 
 import gcardone.junidecode.Junidecode;
 
@@ -9,7 +11,7 @@ public class DeviceHelper {
     private final static String TAG = DeviceService.class.getSimpleName();
 
     public int getAlertTextMaxLength() {
-        return 0;
+        return -1;
     }
 
     public boolean isIt(BluetoothDevice device) {
@@ -17,8 +19,6 @@ public class DeviceHelper {
     }
 
     public String formatAlertText(String text) {
-        String messageBodyTransliterated = Junidecode.unidecode(text);
-        Log.i(TAG, "formatAlertText(): " + text);
-        return text;
+        return Junidecode.unidecode(text);
     }
 }

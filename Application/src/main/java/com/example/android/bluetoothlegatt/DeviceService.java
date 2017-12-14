@@ -17,7 +17,9 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
-import com.example.android.bluetoothlegatt.device_helpers.MiBand2;
+import com.example.android.bluetoothlegatt.helpers.BluetoothLeProfiles;
+import com.example.android.bluetoothlegatt.helpers.DeviceHelper;
+import com.example.android.bluetoothlegatt.helpers.MiBand2Helper;
 
 import java.util.ArrayList;
 
@@ -202,7 +204,7 @@ public class DeviceService extends Service {
 
     private DeviceHelper getDeviceHelper(BluetoothDevice device) {
         ArrayList<DeviceHelper> types = new ArrayList<DeviceHelper>() {{
-            add(new MiBand2());
+            add(new MiBand2Helper());
         }};
         for (DeviceHelper type : types) {
             if (type.isIt(device)) {

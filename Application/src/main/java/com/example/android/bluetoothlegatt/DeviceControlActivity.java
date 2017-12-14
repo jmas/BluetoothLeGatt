@@ -37,6 +37,9 @@ import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 
+import com.example.android.bluetoothlegatt.helpers.AppSettings;
+import com.example.android.bluetoothlegatt.helpers.SampleGattAttributes;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

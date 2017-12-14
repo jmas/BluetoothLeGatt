@@ -1,4 +1,4 @@
-package com.example.android.bluetoothlegatt;
+package com.example.android.bluetoothlegatt.helpers;
 
 import java.util.UUID;
 

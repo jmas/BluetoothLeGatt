@@ -34,6 +34,8 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
+import com.example.android.bluetoothlegatt.helpers.SampleGattAttributes;
+
 import java.util.List;
 import java.util.UUID;
 
