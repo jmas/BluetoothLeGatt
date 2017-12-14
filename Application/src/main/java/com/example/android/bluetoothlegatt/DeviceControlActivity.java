@@ -26,12 +26,17 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.os.Message;
+import android.os.Messenger;
+import android.os.RemoteException;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
@@ -100,6 +105,8 @@ public class DeviceControlActivity extends Activity {
                 mConnected = true;
                 updateConnectionState(R.string.connected);
                 invalidateOptionsMenu();
+                startMiBandService();
+                saveDeviceAddress(mDeviceAddress);
             } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
                 mConnected = false;
                 updateConnectionState(R.string.disconnected);
@@ -175,6 +182,8 @@ public class DeviceControlActivity extends Activity {
         getActionBar().setDisplayHomeAsUpEnabled(true);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
+
+        bindEventHandlers();
     }
 
     @Override
@@ -221,6 +230,7 @@ public class DeviceControlActivity extends Activity {
                 return true;
             case R.id.menu_disconnect:
                 mBluetoothLeService.disconnect();
+                stopMiBandService();
                 return true;
             case android.R.id.home:
                 onBackPressed();
@@ -310,4 +320,33 @@ public class DeviceControlActivity extends Activity {
 //        intentFilter.addAction(BluetoothDevice.ACTION_BOND_STATE_CHANGED);
         return intentFilter;
     }
+
+    private void bindEventHandlers() {
+        final Button button = (Button) findViewById(R.id.send_alert);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(DeviceControlActivity.this, MiBandService.class);
+                intent.setAction(MiBandService.ACTION_NEW_ALERT);
+                intent.putExtra(MiBandService.EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
+                intent.putExtra(MiBandService.EXTRAS_ALERT_TEXT, "Hello!");
+                startService(intent);
+            }
+        });
+    }
+
+    private void startMiBandService() {
+        Intent intent = new Intent(this, MiBandService.class);
+        intent.putExtra(MiBandService.EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
+        startService(intent);
+    }
+
+    private void stopMiBandService() {
+        Intent intent = new Intent(this, MiBandService.class);
+        stopService(intent);
+    }
+
+    private void saveDeviceAddress(String deviceAddress) {
+        (new AppSettings(this)).saveString(AppSettings.KEY_CONNECTED_DEVICE_ADDRESS, deviceAddress);
+    }
+
 }

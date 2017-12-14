@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/jmas/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="557edd918fd41f9260963583ebf5a61a43a6b423">
+        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/commons-lang3-3.7_f661f3d44a3cba1ae0cb0a2e32382181e992f866.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"

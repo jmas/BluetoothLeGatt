@@ -307,6 +307,16 @@ public class BluetoothLeService extends Service {
         }
     }
 
+    public boolean writeCharacteristic(BluetoothGattCharacteristic characteristic) {
+        return mBluetoothGatt.writeCharacteristic(characteristic);
+    }
+
+    public BluetoothGattCharacteristic getCharacteristic(UUID service, UUID characteristic) {
+        return mBluetoothGatt
+                .getService(service)
+                .getCharacteristic(characteristic);
+    }
+
     /**
      * Retrieves a list of supported GATT services on the connected device. This should be
      * invoked only after {@code BluetoothGatt#discoverServices()} completes successfully.

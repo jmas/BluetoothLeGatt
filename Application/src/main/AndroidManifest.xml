@@ -49,14 +49,19 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".DeviceControlActivity"/>
-
-        <service android:name=".BluetoothLeService" android:enabled="true"/>
+        <activity
+            android:name=".DeviceControlActivity"/>
 
         <service
-            android:name=".MainForegroundService"
-            android:enabled="true"
-            android:exported="false">
+            android:name=".BluetoothLeService"
+            android:enabled="true"/>
+
+        <service
+            android:name=".MiBandService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="io.github.jmas.bluetoothlegatt.ACTION_SEND_ALERT" />
+            </intent-filter>
         </service>
 
         <receiver
@@ -72,5 +77,4 @@
             </intent-filter>
         </receiver>
     </application>
-
 </manifest>
