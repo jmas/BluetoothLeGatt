@@ -8,12 +8,12 @@
         "source": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_vector_test.xml"
-    },
-    {
         "merged": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
         "source": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_vector_test.xml"
     },
     {
         "merged": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",

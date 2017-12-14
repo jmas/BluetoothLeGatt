@@ -3,33 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_ddeb6434f7296beaba82ee412b57e6452bbf53eb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_bb77e4e0e3aa365b1f3d468730f21f6b5a099598.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_3a8bccc6b1e39fb71aabdeaba04ecf370ee98ed9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/jmas/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar"
         jumboMode="false"
         optimize="true"
@@ -75,15 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jmas/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_ca0e6f0e7fe07d7a87dbb11350ad18b3b6773e4a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -99,6 +63,60 @@
         revision="25.0.2"
         sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
         <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0ddae76a19232f82d09f6928cd46d06c8ff874c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e0bafde81635bf9e8bc272b24bae28e0c30967e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_77cd10afbc9702664fcf714a896690157bf9ae3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_ddeb6434f7296beaba82ee412b57e6452bbf53eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_bb77e4e0e3aa365b1f3d468730f21f6b5a099598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_3a8bccc6b1e39fb71aabdeaba04ecf370ee98ed9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmas/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_ca0e6f0e7fe07d7a87dbb11350ad18b3b6773e4a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,15 +138,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e0bafde81635bf9e8bc272b24bae28e0c30967e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -144,15 +153,6 @@
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_2097b65fe1006298769cf30d8078beca4130ab7a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_77cd10afbc9702664fcf714a896690157bf9ae3b.jar" />
     </item>
     <item
         is-multidex="false"

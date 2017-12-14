@@ -12,6 +12,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.graphics.BitmapFactory;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
@@ -73,8 +74,6 @@ public class MiBandService extends Service {
     public void onCreate() {
         registerReceiver(mGattUpdateReceiver, makeGattUpdateIntentFilter());
         notificationManager = (NotificationManager) this.getSystemService(NOTIFICATION_SERVICE);
-        Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
-        bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
         super.onCreate();
     }
 
@@ -106,7 +105,9 @@ public class MiBandService extends Service {
         Notification notification = new Notification.Builder(getApplicationContext())
                 .setContentTitle(getString(R.string.app_name))
                 .setContentText(contentText)
-                .setSmallIcon(R.drawable.ic_bluetooth_connected)
+                .setSmallIcon(R.drawable.ic_launcher)
+                .setLargeIcon(BitmapFactory.decodeResource(getApplicationContext().getResources(),
+                        R.drawable.ic_launcher))
                 .setWhen(System.currentTimeMillis())
                 .setContentIntent(contentIntent)
                 .setAutoCancel(true)
@@ -132,6 +133,8 @@ public class MiBandService extends Service {
         if (deviceAddress != null) {
             mDeviceAddress = deviceAddress;
         }
+        Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
+        bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
         return super.onStartCommand(intent, flags, startId);
     }
 

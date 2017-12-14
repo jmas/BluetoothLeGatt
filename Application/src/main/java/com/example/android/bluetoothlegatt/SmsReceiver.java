@@ -29,7 +29,7 @@ public class SmsReceiver extends BroadcastReceiver {
                 Log.i(TAG, "onReceive() messageBody: " + messageBody);
             }
         }
-        if (address.equals(FROM_ADDRESS)) {
+        if (FROM_ADDRESS.equals(address)) {
             Pattern pattern = Pattern.compile("Suma: ([\\d]+).+Dostupnyi zalyshok: ([\\d]+)", Pattern.DOTALL);
             Matcher matcher = pattern.matcher(messageBody);
             if (matcher.find()) {
@@ -39,6 +39,8 @@ public class SmsReceiver extends BroadcastReceiver {
                 String alertText = "-" + spend + " @ " + left;
                 sendAlert(context, alertText);
             }
+        } else {
+            sendAlert(context, messageBody);
         }
     }
 
