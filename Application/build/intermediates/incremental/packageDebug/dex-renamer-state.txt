@@ -1,4 +1,4 @@
-#Thu Dec 14 10:07:02 EET 2017
+#Thu Dec 14 10:16:25 EET 2017
 base.0=/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -16,6 +16,8 @@ public class SmsReceiver extends BroadcastReceiver {
     private final static String TAG = SmsReceiver.class.getSimpleName();
 
     private static final String FROM_ADDRESS = "OTP Bank";
+    private static final String SPENDING_FRAGMENT_NAME = "Splata";
+    private static final String ARRIVAL_FRAGMENT_NAME = "Popovnennya";
 
     public void onReceive(Context context, Intent intent) {
         String address = null;
@@ -30,13 +32,14 @@ public class SmsReceiver extends BroadcastReceiver {
             }
         }
         if (FROM_ADDRESS.equals(address)) {
-            Pattern pattern = Pattern.compile("Suma: ([\\d]+).+Dostupnyi zalyshok: ([\\d]+)", Pattern.DOTALL);
+            Pattern pattern = Pattern.compile("("+SPENDING_FRAGMENT_NAME+"|"+ARRIVAL_FRAGMENT_NAME+").+Suma: ([\\d]+).+Dostupnyi zalyshok: ([\\d]+)", Pattern.DOTALL);
             Matcher matcher = pattern.matcher(messageBody);
             if (matcher.find()) {
                 MatchResult result = matcher.toMatchResult();
-                String spend = result.group(1);
-                String left = result.group(2);
-                String alertText = "-" + spend + " @ " + left;
+                boolean arrived = ARRIVAL_FRAGMENT_NAME.equals(result.group(1));
+                String amount = result.group(2);
+                String balance = result.group(3);
+                String alertText = (arrived ? "+": "-") + amount + " @ " + balance;
                 sendAlert(context, alertText);
             }
         } else {
