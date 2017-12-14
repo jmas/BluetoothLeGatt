@@ -334,20 +334,4 @@ public class BluetoothLeService extends Service {
 
         return mBluetoothGatt.getServices();
     }
-
-    private final BroadcastReceiver mGattUpdateReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            final String action = intent.getAction();
-            if (BluetoothDevice.ACTION_BOND_STATE_CHANGED.equals(action)) {
-                Log.i(TAG, "New bond state: " + intent.getIntExtra(BluetoothDevice.EXTRA_BOND_STATE, 0));
-            }
-        }
-    };
-
-    private static IntentFilter makeGattUpdateIntentFilter() {
-        final IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction(BluetoothDevice.ACTION_BOND_STATE_CHANGED);
-        return intentFilter;
-    }
 }
