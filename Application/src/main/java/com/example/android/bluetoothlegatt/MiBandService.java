@@ -19,6 +19,8 @@ import android.util.Log;
 import org.apache.commons.lang3.ArrayUtils;
 
 public class MiBandService extends Service {
+    public static final int NOTIFICATION_ID = 1;
+    private final static String TAG = MiBandService.class.getSimpleName();
     public final static String ACTION_NEW_ALERT =
             "com.example.bluetoothlegatt.mibandservice.ACTION_NEW_ALERT";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
@@ -28,17 +30,11 @@ public class MiBandService extends Service {
     private BluetoothLeService mBluetoothLeService;
     private String mDeviceAddress;
     private String pendingAlert;
-
     private NotificationManager notificationManager;
-    public static final int NOTIFICATION_ID = 1;
-
-    private final static String TAG = MiBandService.class.getSimpleName();
 
     public static final byte ALERT_TYPE_EMAIL = 0x01;
     public static final byte ALERT_TYPE_PHONE = 0x03;
     public static final byte ALERT_TYPE_MESSAGE = 0x05;
-
-
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
@@ -90,7 +86,6 @@ public class MiBandService extends Service {
         super.onDestroy();
     }
 
-
     private void showForegroundNotification(String contentText) {
         Log.i(TAG, "showForegroundNotification()");
         // Create intent that will bring our app to the front, as if it was tapped in the app
@@ -120,7 +115,6 @@ public class MiBandService extends Service {
 
         startForeground(NOTIFICATION_ID, notification);
     }
-
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -175,7 +169,6 @@ public class MiBandService extends Service {
             }
         }
     };
-
 
     private void sendNewAlert(byte type, String text) {
         Log.i(TAG, "sendNewAlert(): " + text);
