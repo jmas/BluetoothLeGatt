@@ -17,14 +17,18 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
+import com.example.android.bluetoothlegatt.device_helpers.MiBand2;
+
+import java.util.ArrayList;
+
 import org.apache.commons.lang3.ArrayUtils;
 
-public class MiBandService extends Service {
-    private final static String TAG = MiBandService.class.getSimpleName();
+public class DeviceService extends Service {
+    private final static String TAG = DeviceService.class.getSimpleName();
     
     public static final int NOTIFICATION_ID = 1;
     public final static String ACTION_NEW_ALERT =
-            "com.example.bluetoothlegatt.mibandservice.ACTION_NEW_ALERT";
+            "com.example.bluetoothlegatt.deviceservice.ACTION_NEW_ALERT";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
     public static final String EXTRAS_ALERT_TEXT = "ALERT_TEXT";
 
@@ -121,6 +125,7 @@ public class MiBandService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         String action = intent.getAction();
+        // process alert
         if (ACTION_NEW_ALERT.equals(action)) {
             String alertText = intent.getStringExtra(EXTRAS_ALERT_TEXT);
             Log.i(TAG, "onStartCommand() ACTION_NEW_ALERT (" + alertText +")");
@@ -130,6 +135,7 @@ public class MiBandService extends Service {
                 pendingAlert = alertText;
             }
         }
+        // bind service
         String deviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
         if (deviceAddress != null) {
             mDeviceAddress = deviceAddress;
@@ -179,6 +185,7 @@ public class MiBandService extends Service {
         BluetoothGattCharacteristic characteristic = mBluetoothLeService.getCharacteristic(
                 BluetoothLeProfiles.AlertNotification.service,
                 BluetoothLeProfiles.AlertNotification.newAlert);
+        // Message format here: https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.new_alert.xml
         // Message (characteristic value) format:
         // first byte
         //   0x01 - as email
@@ -188,7 +195,20 @@ public class MiBandService extends Service {
         //   count of messages (random number - not showing on display for mi band 2)
         // rest bytes
         //   content of message
-        characteristic.setValue(ArrayUtils.addAll(new byte[]{type, 0x01}, text.getBytes()));
+        DeviceHelper deviceHelper = getDeviceHelper(mBluetoothLeService.getDevice());
+        characteristic.setValue(ArrayUtils.addAll(new byte[]{type, 0x01}, deviceHelper.formatAlertText(text).getBytes()));
         mBluetoothLeService.writeCharacteristic(characteristic);
+    }
+
+    private DeviceHelper getDeviceHelper(BluetoothDevice device) {
+        ArrayList<DeviceHelper> types = new ArrayList<DeviceHelper>() {{
+            add(new MiBand2());
+        }};
+        for (DeviceHelper type : types) {
+            if (type.isIt(device)) {
+                return type;
+            }
+        }
+        return new DeviceHelper();
     }
 }

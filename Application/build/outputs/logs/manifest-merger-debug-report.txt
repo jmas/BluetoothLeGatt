@@ -1,141 +1,141 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-80:12
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-80:12
 	package
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:21:5-50
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:21:5-50
 	android:versionName
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:23:5-30
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:23:5-30
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:22:5-28
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:22:5-28
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:11-69
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:11-69
 uses-feature#android.hardware.bluetooth_le
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:5-89
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:5-89
 	android:required
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:64-87
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:64-87
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:19-63
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:31:19-63
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:33:5-67
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:33:5-67
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:33:22-65
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:33:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:5-73
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:5-73
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:22-71
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:5-80
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:5-80
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:22-78
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:22-78
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:5-80
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:5-80
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:22-78
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:22-78
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:5-70
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:5-70
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:22-67
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:22-67
 application
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:5-79:19
-MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:5-79:19
+MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:40:9-41
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:40:9-41
 	android:icon
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:41:9-45
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:41:9-45
 	android:theme
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:9-56
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:9-56
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:43:9-50:20
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:43:9-50:20
 	android:label
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:13-45
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:13-45
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:44:13-47
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:44:13-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:13-49:29
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:13-49:29
 action#android.intent.action.MAIN
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:47:17-68
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:47:17-68
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:47:25-66
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:48:17-76
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:48:17-76
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:48:27-74
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:48:27-74
 activity#com.example.android.bluetoothlegatt.DeviceControlActivity
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:52:9-53:52
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:52:9-53:52
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:53:13-50
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:53:13-50
 service#com.example.android.bluetoothlegatt.BluetoothLeService
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:55:9-57:37
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:55:9-57:37
 	android:enabled
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:57:13-35
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:57:13-35
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:56:13-47
-service#com.example.android.bluetoothlegatt.MiBandService
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:59:9-65:19
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:56:13-47
+service#com.example.android.bluetoothlegatt.DeviceService
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:59:9-65:19
 	android:enabled
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:61:13-35
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:61:13-35
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:60:13-42
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:60:13-42
 intent-filter#io.github.jmas.bluetoothlegatt.ACTION_SEND_ALERT
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:62:13-64:29
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:62:13-64:29
 action#io.github.jmas.bluetoothlegatt.ACTION_SEND_ALERT
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:63:17-91
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:63:17-91
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:63:25-88
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:63:25-88
 receiver#com.example.android.bluetoothlegatt.BootReceiver
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:67:9-72:20
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:67:9-72:20
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:68:13-41
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:68:13-41
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:69:13-71:29
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:69:13-71:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:70:17-78
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:70:17-78
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:70:25-76
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:70:25-76
 receiver#com.example.android.bluetoothlegatt.SmsReceiver
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:74:9-78:20
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:74:9-78:20
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:74:19-46
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:74:19-46
 intent-filter#android.provider.Telephony.SMS_RECEIVED
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:75:13-77:29
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:75:13-77:29
 	android:priority
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:75:28-51
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:75:28-51
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:76:17-82
+ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:76:17-82
 	android:name
-		ADDED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:76:25-79
+		ADDED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:76:25-79
 uses-sdk
-INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v13:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v13:25.0.1] /Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:23:9-52
+		ADDED from [com.android.support:support-v13:25.0.1] /Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:23:9-52
 	android:targetSdkVersion
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jmas/Playground/BluetoothLeGatt/Application/src/main/AndroidManifest.xml

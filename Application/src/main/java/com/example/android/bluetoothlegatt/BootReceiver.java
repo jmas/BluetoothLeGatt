@@ -3,7 +3,6 @@ package com.example.android.bluetoothlegatt;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.util.Log;
 
 public class BootReceiver extends BroadcastReceiver {
@@ -17,8 +16,8 @@ public class BootReceiver extends BroadcastReceiver {
             String deviceAddress = (new AppSettings(context)).getString(AppSettings.KEY_CONNECTED_DEVICE_ADDRESS);
 
             if (deviceAddress != null) {
-                Intent serviceIntent = new Intent(context, MiBandService.class);
-                serviceIntent.putExtra(MiBandService.EXTRAS_DEVICE_ADDRESS, deviceAddress);
+                Intent serviceIntent = new Intent(context, DeviceService.class);
+                serviceIntent.putExtra(DeviceService.EXTRAS_DEVICE_ADDRESS, deviceAddress);
                 context.startService(serviceIntent);
             }
         }

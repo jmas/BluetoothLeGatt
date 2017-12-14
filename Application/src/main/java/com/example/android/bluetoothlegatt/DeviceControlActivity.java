@@ -321,23 +321,23 @@ public class DeviceControlActivity extends Activity {
         final Button button = (Button) findViewById(R.id.send_alert);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(DeviceControlActivity.this, MiBandService.class);
-                intent.setAction(MiBandService.ACTION_NEW_ALERT);
-                intent.putExtra(MiBandService.EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
-                intent.putExtra(MiBandService.EXTRAS_ALERT_TEXT, "Hello!");
+                Intent intent = new Intent(DeviceControlActivity.this, DeviceService.class);
+                intent.setAction(DeviceService.ACTION_NEW_ALERT);
+                intent.putExtra(DeviceService.EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
+                intent.putExtra(DeviceService.EXTRAS_ALERT_TEXT, "1234567890abcdefghijklmnopqrstuvwxyz".toUpperCase());
                 startService(intent);
             }
         });
     }
 
     private void startMiBandService() {
-        Intent intent = new Intent(this, MiBandService.class);
-        intent.putExtra(MiBandService.EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
+        Intent intent = new Intent(this, DeviceService.class);
+        intent.putExtra(DeviceService.EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
         startService(intent);
     }
 
     private void stopMiBandService() {
-        Intent intent = new Intent(this, MiBandService.class);
+        Intent intent = new Intent(this, DeviceService.class);
         stopService(intent);
     }
 

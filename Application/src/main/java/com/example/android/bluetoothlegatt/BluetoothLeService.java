@@ -317,6 +317,10 @@ public class BluetoothLeService extends Service {
                 .getCharacteristic(characteristic);
     }
 
+    public BluetoothDevice getDevice() {
+        return mBluetoothGatt.getDevice();
+    }
+
     /**
      * Retrieves a list of supported GATT services on the connected device. This should be
      * invoked only after {@code BluetoothGatt#discoverServices()} completes successfully.

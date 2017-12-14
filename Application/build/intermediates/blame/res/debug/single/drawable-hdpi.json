@@ -1,10 +1,18 @@
 [
     {
+        "merged": "/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/jmas/Playground/BluetoothLeGatt/Application/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable-hdpi/tile.9.png",
         "source": "/Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/res/drawable-hdpi/tile.9.png"
     },
     {
         "merged": "/Users/jmas/Downloads/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
         "source": "/Users/jmas/Downloads/BluetoothLeGatt/Application/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/res/merged/debug/drawable-hdpi/tile.9.png",
+        "source": "/Users/jmas/Playground/BluetoothLeGatt/Application/src/main/res/drawable-hdpi/tile.9.png"
     }
 ]

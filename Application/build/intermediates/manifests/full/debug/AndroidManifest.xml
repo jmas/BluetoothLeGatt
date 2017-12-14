@@ -61,7 +61,7 @@
             android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
             android:enabled="true" />
         <service
-            android:name="com.example.android.bluetoothlegatt.MiBandService"
+            android:name="com.example.android.bluetoothlegatt.DeviceService"
             android:enabled="true" >
             <intent-filter>
                 <action android:name="io.github.jmas.bluetoothlegatt.ACTION_SEND_ALERT" />

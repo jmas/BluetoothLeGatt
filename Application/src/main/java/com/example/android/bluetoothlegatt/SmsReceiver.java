@@ -12,6 +12,8 @@ import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import gcardone.junidecode.Junidecode;
+
 public class SmsReceiver extends BroadcastReceiver {
     private final static String TAG = SmsReceiver.class.getSimpleName();
 
@@ -60,10 +62,10 @@ public class SmsReceiver extends BroadcastReceiver {
         Log.i(TAG, "sendAlert() alert text: " + text);
 
         if (deviceAddress != null) {
-            Intent serviceIntent = new Intent(context, MiBandService.class);
-            serviceIntent.setAction(MiBandService.ACTION_NEW_ALERT);
-            serviceIntent.putExtra(MiBandService.EXTRAS_DEVICE_ADDRESS, deviceAddress);
-            serviceIntent.putExtra(MiBandService.EXTRAS_ALERT_TEXT, text);
+            Intent serviceIntent = new Intent(context, DeviceService.class);
+            serviceIntent.setAction(DeviceService.ACTION_NEW_ALERT);
+            serviceIntent.putExtra(DeviceService.EXTRAS_DEVICE_ADDRESS, deviceAddress);
+            serviceIntent.putExtra(DeviceService.EXTRAS_ALERT_TEXT, text);
             context.startService(serviceIntent);
         }
     }
