@@ -20,8 +20,9 @@ import android.util.Log;
 import org.apache.commons.lang3.ArrayUtils;
 
 public class MiBandService extends Service {
-    public static final int NOTIFICATION_ID = 1;
     private final static String TAG = MiBandService.class.getSimpleName();
+    
+    public static final int NOTIFICATION_ID = 1;
     public final static String ACTION_NEW_ALERT =
             "com.example.bluetoothlegatt.mibandservice.ACTION_NEW_ALERT";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";

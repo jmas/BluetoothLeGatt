@@ -26,12 +26,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.os.Message;
-import android.os.Messenger;
-import android.os.RemoteException;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -346,7 +342,7 @@ public class DeviceControlActivity extends Activity {
     }
 
     private void saveDeviceAddress(String deviceAddress) {
-        (new AppSettings(this)).saveString(AppSettings.KEY_CONNECTED_DEVICE_ADDRESS, deviceAddress);
+        (new AppSettings(this)).setString(AppSettings.KEY_CONNECTED_DEVICE_ADDRESS, deviceAddress);
     }
 
 }

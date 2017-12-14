@@ -14,7 +14,7 @@ public class AppSettings {
         this.context = context;
     }
 
-    public boolean saveString(String key, String value) {
+    public boolean setString(String key, String value) {
         SharedPreferences sharedPref = context.getSharedPreferences(APP_PREFERENCES_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putString(key, value);
