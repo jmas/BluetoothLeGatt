@@ -8,8 +8,6 @@ import android.content.Intent;
 import android.provider.Telephony;
 import android.util.Log;
 
-import com.example.android.bluetoothlegatt.helpers.AppSettings;
-
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -56,7 +54,7 @@ public class SmsReceiver extends BroadcastReceiver {
     }
 
     private void sendAlert(Context context, String text) {
-        String deviceAddress = (new AppSettings(context)).getString(AppSettings.KEY_CONNECTED_DEVICE_ADDRESS);
+        String deviceAddress = (new Settings(context)).getString(Settings.KEY_CONNECTED_DEVICE_ADDRESS);
 
         Log.i(TAG, "sendAlert() deviceAddress: " + deviceAddress);
         Log.i(TAG, "sendAlert() alert text: " + text);

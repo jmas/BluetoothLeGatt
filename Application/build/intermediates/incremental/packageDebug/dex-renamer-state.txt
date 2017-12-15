@@ -1,7 +1,0 @@
-#Thu Dec 14 13:36:55 EET 2017
-base.0=/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b093f5e848fe280091b75138d670c27efad71856
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5a9c05b34990990925745aad754f043d06eed7f/classes.dex
-base.1=/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5a9c05b34990990925745aad754f043d06eed7f
-file.0=/Users/jmas/Playground/BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b093f5e848fe280091b75138d670c27efad71856/classes.dex

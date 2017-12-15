@@ -5,8 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.example.android.bluetoothlegatt.helpers.AppSettings;
-
 public class BootReceiver extends BroadcastReceiver {
     private final static String TAG = BootReceiver.class.getSimpleName();
 
@@ -15,7 +13,7 @@ public class BootReceiver extends BroadcastReceiver {
         Log.i(TAG, "onReceive()");
 
         if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction())) {
-            String deviceAddress = (new AppSettings(context)).getString(AppSettings.KEY_CONNECTED_DEVICE_ADDRESS);
+            String deviceAddress = (new Settings(context)).getString(Settings.KEY_CONNECTED_DEVICE_ADDRESS);
 
             if (deviceAddress != null) {
                 Intent serviceIntent = new Intent(context, DeviceService.class);

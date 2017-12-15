@@ -37,7 +37,6 @@ import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 
-import com.example.android.bluetoothlegatt.helpers.AppSettings;
 import com.example.android.bluetoothlegatt.helpers.SampleGattAttributes;
 
 import java.util.ArrayList;
@@ -345,7 +344,7 @@ public class DeviceControlActivity extends Activity {
     }
 
     private void saveDeviceAddress(String deviceAddress) {
-        (new AppSettings(this)).setString(AppSettings.KEY_CONNECTED_DEVICE_ADDRESS, deviceAddress);
+        (new Settings(this)).setString(Settings.KEY_CONNECTED_DEVICE_ADDRESS, deviceAddress);
     }
 
 }
